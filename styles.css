@@ -1,0 +1,158 @@
+#popup {
+    width: 430px;
+    height: 410px;
+    border: 1px solid BLACK;
+    font-family: 'IBM Plex Sans Hebrew', cursive;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 30px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    overflow: auto; /* Enables vertical scrolling if content overflows */
+}  
+
+#title {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 1px; /* Increase spacing */
+    transition: transform 0.5s ease;
+    background: linear-gradient(45deg, black, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#title:hover {
+    transform: scale(1.1);
+}
+
+.grid-item {
+    text-align: center; /* Centers the content of each grid item */
+    margin-bottom: 10px; /* Space below each item for cleaner separation */
+}
+
+img {
+    width: 60px; /* Set a fixed width for the icons */
+    height: 60px; /* Set a fixed height for the icons */
+    object-fit: cover; /* Ensures the image covers the set dimensions without stretching */
+    transition: transform 0.5s ease;
+}
+
+p {
+    margin-top: 5px; /* Space between the image and text label */
+    font-size: 14px; /* Smaller font size for text labels */
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.grid-item {
+    animation: fadeIn 0.6s ease-out;
+}
+
+img:hover {
+    transform: translateY(-5px); /* Moves the image up when hovered */
+}
+
+img {
+    border-radius: 50%; /* עיגול התמונה */
+    transition: transform 0.3s; /* אפקט מעבר חלק לתמונה */
+}
+
+/* This styles the scrollbar track (part the thumb slides within) */
+::-webkit-scrollbar {
+    width: 5px;  /* width of the entire scrollbar */
+    height: 10px; /* height of the entire scrollbar for horizontal scroll */
+}
+
+/* This styles the draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(145, 53, 166); /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+    border: 2px solid rgb(145, 53, 166); /* creates a border around the scroll thumb */
+}
+
+/* This styles the part of the scrollbar track not covered by the drag */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+    border-radius: 6px;  /* roundness of the track */
+}
+.nav-menu {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1); /* Adds a shadow line for a soft divider effect */
+}
+
+#gym p {
+    font-weight: bold; /* מודגש */
+    text-shadow: 1px 1px 0px rgba(251, 178, 69, 1);
+}
+
+
+.menu-btn {
+    background-color: #6c8196; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 1px 16px;
+    margin: 4px;
+    border-radius: 116px; /* Rounded corners for the buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+}
+
+.menu-btn:hover {
+    background-color: #5a4167; /* Darker shade on hover */
+    transform: scale(1.1); /* Slightly increase button size on hover */
+}
+
+.nav-menu {
+    text-align: center;
+}
+
+.updates-container {
+    margin-top: 10px;
+    background-color: #dcf8c6;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    text-align: center;
+}
+
+#updates-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    direction: rtl;
+}
+
+#updates-list li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.05);
+    animation: fadeIn 2s;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: fit-content; /* This ensures the li element is only as wide as its contents */
+    max-width: 100%; /* Ensures that the li element does not extend beyond its container */
+}
+
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px; /* Margin on the left to keep spacing consistent */
+    margin-right: 0; /* Remove right margin if previously set */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

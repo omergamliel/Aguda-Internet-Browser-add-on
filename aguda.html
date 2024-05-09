@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>סטודנט+ עמק יזרעאל</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Hebrew" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="popup">
+        <div class="header d-flex align-items-center">
+            <div id="Information" class="information mr-auto">
+                <img src="icons/icon20.png" alt="Info" style="width: 20px; height: 20px;">
+            </div>
+            <h3 id="title" class="mb-0">סטודנט+ עמק יזרעאל</h3>
+        </div>
+        
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <button id="contact-btn" class="menu-btn">יצירת קשר</button>
+            <button id="services-btn" class="menu-btn">שירותים</button>
+            <button id="updates-btn" class="menu-btn">עדכוני לייב</button>
+            <button id="general-btn" class="menu-btn">כללי</button>
+        </div>
+        
+        <!-- Live Updates -->
+        <div class="updates-container">
+            <h5>עדכוני בלייב מאגודת הסטודנטים</h5>
+            <ul id="updates-list">
+                <!-- Dynamic update entries will be appended here -->
+                <!-- You can add JavaScript code here to dynamically update the list -->
+                <!-- For example: -->
+                <!-- <script>
+                    // Get the updates list element
+                    var updatesList = document.getElementById("updates-list");
+
+                    // Create a new list item
+                    var newItem = document.createElement("li");
+                    newItem.textContent = "New update";
+
+                    // Append the new item to the updates list
+                    updatesList.appendChild(newItem);
+                </script> -->
+            </ul>
+
+            <!-- Play sound when new update is added -->
+            <audio id="update-sound" src="music/alert.mp3"></audio>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
