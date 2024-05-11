@@ -8,6 +8,17 @@
 ## Summary
 The Student Union Browser Extension is designed to enhance the educational experience at our college by providing students with easy access to essential college services and resources. This extension integrates quick links and tools directly into the browser, allowing for safe and convenient access to college-related information.
 
+## LinkedIn Launch Post
+
+We are excited to announce the launch of our new Student Union Browser Extension! 🚀
+
+Check out our LinkedIn post to read the full story of how we started developing this extension. We invite you to explore how it can enhance your daily academic and student life.
+
+![LinkedIn Post Image](https://i.imagesup.co/images2/9f5f364b2b42cc8b2c8c8e082f11be17d335abd4.png)
+
+[Read the Full Story Here](https://www.linkedin.com/feed/update/urn:li:activity:7191681679067856896/)
+
+
 <!-- Features -->
 ## Features
 This extension includes access to a wide range of services, both from the college and the student union:
@@ -35,8 +46,6 @@ To install this browser extension, follow these simple steps:
 <!-- Demo Video -->
 <!-- Demo Video -->
 ## Demo Video
-
-Watch the demo video to see the extension in action:
 [![Demo Video](https://img.youtube.com/vi/kWv72uCrCuA/0.jpg)](https://www.youtube.com/watch?v=kWv72uCrCuA&ab_channel=omeremeky)
 
 
@@ -48,14 +57,6 @@ The Admin Panel of the extension is not exposed in the code for data protection 
 ![Demo GIF](https://i.imagesup.co/images2/a1ca2db07851805c8ab57adde60c9287982b87bb.gif)
 > The Admin Panel interface (Access Restricted).
 
-<!-- Security and Privacy -->
-## Security and Privacy
-Our commitment to security and user privacy ensures that all functionalities within the extension are designed with the best interest of our student community in mind.
-
 <!-- Contact -->
 ## Contact
-For more details or support, please contact our support team through the provided contacts in the extension.
-
-<!-- Footer -->
----
-*Note: This extension is available for Chrome browsers only.*
+For more details or support, please contact shivook@yvc.ac.il
