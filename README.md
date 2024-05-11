@@ -1,17 +1,9 @@
-<!-- Place for the Logo -->
+
 <p align="center">
-  <img src="URL_TO_LOGO" alt="Logo of the Student Union Browser Extension" width="200">
+  <img src="https://i.imagesup.co/images2/0a0b3bafb9fdf5113bae128e0f9884d18dfa81eb.png" alt="Logo of the Student Union Browser Extension" >
 </p>
 
 # Student Union Browser Extension
-<p align="center">
-  <img src="https://i.imagesup.co/images2/aecc089c0fc3bf106b587348901a20d1900e3b91.gif" alt="Animated demonstration of the Student Union Browser Extension">
-</p>
-
-<!-- Title -->
-<h1 align="center">Student Union Browser Extension</h1>
-
-
 <!-- Summary -->
 ## Summary
 The Student Union Browser Extension is designed to enhance the educational experience at our college by providing students with easy access to essential college services and resources. This extension integrates quick links and tools directly into the browser, allowing for safe and convenient access to college-related information.
@@ -25,8 +17,12 @@ This extension includes access to a wide range of services, both from the colleg
 
 <!-- Images -->
 ## Images
-![Extension Screenshot](https://i.imagesup.co/images2/aecc089c0fc3bf106b587348901a20d1900e3b91.gif)
-> A sneak peek at the extension interface.
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/g2szc8sz8Co7g_IKU6xNpkqVKIRY2tDM3vxwUyov_k9bu0gW31qwsfGmQVpBvZib0h97Q3IwlQ3ioFZw_tiW8t70=s800-w800-h500" width="300" alt="Extension Screenshot 1">
+  <img src="https://lh3.googleusercontent.com/w9pPHLWafmNiWm_MVG1jJW1WJvXaO9EZweJEJWDthcORiHqQP0xTM8ttBTLc1v1lxFBf0Igxnk6VsSMYIcHv3JkUOks=s800-w800-h500" width="300" alt="Extension Screenshot 2">
+  <img src="https://lh3.googleusercontent.com/xZjFzFotmtEUzQWrSUHi412-uuxl-6pFNfpTkkq4J7vwqqwqM0uWMAJe2UQWDQAvJqGnvWasnZyKIvCMWh2nYG7fIQ=s800-w800-h500" width="300" alt="Extension Screenshot 3">
+</p>
+
 
 <!-- Installation Guide -->
 ## Installation Guide
@@ -37,16 +33,19 @@ To install this browser extension, follow these simple steps:
 4. The extension will be installed and an icon will appear on your browser's toolbar.
 
 <!-- Demo Video -->
+<!-- Demo Video -->
 ## Demo Video
+
 Watch the demo video to see the extension in action:
 [![Demo Video](https://img.youtube.com/vi/kWv72uCrCuA/0.jpg)](https://www.youtube.com/watch?v=kWv72uCrCuA&ab_channel=omeremeky)
+
 
 <!-- Admin Panel -->
 ## Admin Panel (Restricted Access)
 The Admin Panel of the extension is not exposed in the code for data protection reasons. It allows administrators to send notifications to the dedicated notification page in the plugin. For more information, authorized personnel can contact the technology manager.
 
 <!-- Admin Panel Demo Image -->
-![Admin Panel Screenshot](URL_TO_ADMIN_PANEL_IMAGE)
+![Demo GIF](https://i.imagesup.co/images2/a1ca2db07851805c8ab57adde60c9287982b87bb.gif)
 > The Admin Panel interface (Access Restricted).
 
 <!-- Security and Privacy -->
